@@ -1,0 +1,8 @@
+venv
+docker
+docker-compose.yaml
+README.MD
+.idea
+postgres_data
+.env.example
+.gitignore

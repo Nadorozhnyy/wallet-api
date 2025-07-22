@@ -80,7 +80,6 @@ fabric.properties
 [Ll]ib
 [Ll]ib64
 [Ll]ocal
-[Ss]cripts
 pyvenv.cfg
 .venv
 pip-selfcheck.json
@@ -113,6 +112,7 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+postgres_data/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
