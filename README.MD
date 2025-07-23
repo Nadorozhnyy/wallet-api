@@ -1,5 +1,5 @@
 # Wallet API
-REST приложение которое принимает два запроса вида: 
+REST приложение, которое принимает два запроса вида: 
 
 - POST api/v1/wallets/<WALLET_UUID>/operation
 
@@ -8,7 +8,11 @@ operation_type: “DEPOSIT” or “WITHDRAW”,
 amount: 1000
 }
 
+пополнение или списание средств по id wallet
+
 - GET api/v1/wallets/{WALLET_UUID}
+
+возвращает wallet по id
 
 ## Для запуска приложения в DOCKER: 
 - Заполните .env по примеру из .env.sample
