@@ -1,7 +1,7 @@
 import enum
 import uuid
 
-from sqlalchemy import Integer, text, UUID
+from sqlalchemy import Integer, text
 from sqlalchemy.orm import Mapped, mapped_column
 
 from src.models.base import Base
